@@ -44,8 +44,19 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- prettier-ignore-start -->
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-<!-- markdownlint-enable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://pierre.verkest.fr/"><img src="https://avatars.githubusercontent.com/u/4328507?v=4?s=80" width="80px;" alt="Pierre Verkest"/><br /><sub><b>Pierre Verkest</b></sub></a><br /><a href="https://github.com/petrus-v/uri-pathlib-factory/commits?author=petrus-v" title="Code">💻</a> <a href="#ideas-petrus-v" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/petrus-v/uri-pathlib-factory/commits?author=petrus-v" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- prettier-ignore-end -->
 
