@@ -1,3 +1,14 @@
 [flake8]
-exclude = docs
 max-line-length = 88
+exclude = docs,log/*,doc/*,*.egg-info
+max-complexity = 12
+ignore =
+  # line length is handled by black
+  E501
+  # line break before binary operator (black move the line breaker before)
+  W503
+  # as black: allow whitespace before ':'
+  E203
+per-file-ignores =
+  # tests doesn't require doctrings
+  test_*: D103, W605

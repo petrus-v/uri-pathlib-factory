@@ -24,6 +24,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.7"
+importlib-metadata = { version = "^5.0", python = "<3.10" }
 
 # Documentation Dependencies
 Sphinx = {version = "^5.0", optional = true}
@@ -77,16 +78,22 @@ show_error_codes = true
 warn_unreachable = true
 warn_unused_ignores = true
 exclude = [
-    'docs/.*',
+    'docs/',
+    'docs/source/',
     'setup.py',
+    "tests/",
 ]
 
 [[tool.mypy.overrides]]
 module = "tests.*"
-allow_untyped_defs = true
+ignore_errors = true
 
 [[tool.mypy.overrides]]
 module = "docs.*"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "docs.source.*"
 ignore_errors = true
 
 [build-system]

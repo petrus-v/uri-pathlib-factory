@@ -2,7 +2,7 @@
 _commit: a334180
 _src_path: gh:browniebroke/pypackage-template
 add_me_as_contributor: true
-copyright_year: '2022'
+copyright_year: "2022"
 documentation: true
 email: pierreverkest84@gmail.com
 full_name: Pierre Verkest
@@ -11,11 +11,11 @@ initial_commit: true
 open_source_license: Apache Software License 2.0
 package_name: uri_pathlib_factory
 project_name: URI Pathlib factory
-project_short_description: A factory to instantiate Path's like object that are using
-    Pathlib interface.
+project_short_description:
+  A factory to instantiate Path's like object that are using
+  Pathlib interface.
 project_slug: uri-pathlib-factory
 run_poetry_install: false
 setup_github: false
 setup_pre_commit: true
 version: 0.0.1
-
