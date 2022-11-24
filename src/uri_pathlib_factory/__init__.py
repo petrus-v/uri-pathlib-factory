@@ -7,7 +7,7 @@ from .main import (
     load_uri_backends_from_plugins,
 )
 
-__version__ = "0.0.1"
+__version__ = "0.1.0"
 
 __all__ = [
     "load_pathlib_monkey_patch",
