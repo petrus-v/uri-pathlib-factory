@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "uri-pathlib-factory"
-version = "0.1.1"
+version = "0.1.2"
 description = "A factory to instantiate Path's like object that are using Pathlib interface."
 authors = ["Pierre Verkest <pierreverkest84@gmail.com>"]
 license = "Apache Software License 2.0"

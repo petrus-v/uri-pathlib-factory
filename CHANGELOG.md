@@ -2,6 +2,11 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.2 (2022-11-25)
+### Fix
+* Bump python-semantic-release gh action ([`0aef90c`](https://github.com/petrus-v/uri-pathlib-factory/commit/0aef90c4e7bc8289fabc45492b5989da254dd288))
+* Try avoid circular import while register plugin ([`345fa6e`](https://github.com/petrus-v/uri-pathlib-factory/commit/345fa6ece9aebadf509a5babecc83d80aba65bec))
+
 ## v0.1.1 (2022-11-24)
 ### Fix
 * Ci, bump to latest setup-python version (v4) ([`8d91516`](https://github.com/petrus-v/uri-pathlib-factory/commit/8d9151627f8a7b0247c0e97af8c970b27fc8dabd))
