@@ -135,3 +135,6 @@ def unload_pathlib_monkey_patch():
     """
     Path.__new__ = original_path_new
     PurePath.__new__ = original_purepath_new
+
+
+load_uri_backends_from_plugins()

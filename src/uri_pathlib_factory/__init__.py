@@ -1,11 +1,6 @@
 import os
 
-from .main import (
-    PathFactory,
-    PurePathFactory,
-    load_pathlib_monkey_patch,
-    load_uri_backends_from_plugins,
-)
+from .main import PathFactory, PurePathFactory, load_pathlib_monkey_patch
 
 __version__ = "0.1.1"
 
@@ -15,8 +10,6 @@ __all__ = [
     "PathFactory",
 ]
 
-
-load_uri_backends_from_plugins()
 
 if os.environ.get("URI_PATHLIB_FACTORY_LOAD_PATHLIB_PATCH", "").lower() in [
     "1",
