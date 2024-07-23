@@ -24,7 +24,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.7"
-importlib-metadata = { version = "^5.0", python = "<3.10" }
+importlib-metadata = { version = "^6.0", python = "<3.10" }
 
 # Documentation Dependencies
 Sphinx = {version = "^5.0", optional = true}
