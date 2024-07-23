@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.3 (2024-07-23)
+### Fix
+* Bump importlib-metadata
+
 ## v0.1.2 (2022-11-25)
 ### Fix
 * Bump python-semantic-release gh action ([`0aef90c`](https://github.com/petrus-v/uri-pathlib-factory/commit/0aef90c4e7bc8289fabc45492b5989da254dd288))
