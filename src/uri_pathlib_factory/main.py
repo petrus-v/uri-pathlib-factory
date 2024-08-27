@@ -48,9 +48,9 @@ def load_uri_backends_from_plugins():
         uri_backend_registry[scheme] = {
             "purepath": PurePathClass,
             "path": PathClass,
-            "params_adapter": params_adapter
-            if params_adapter
-            else default_params_adapter,
+            "params_adapter": (
+                params_adapter if params_adapter else default_params_adapter
+            ),
         }
 
 
@@ -64,7 +64,7 @@ def pathlib_factory_and_sanitize_args(cls, *args, **kwargs):
     if args and issubclass(args[0].__class__, PurePath):
         cls = args[0].__class__
     if args and cls is Path or cls is PurePath:
-        parsed_uri = urlparse("/".join(args))
+        parsed_uri = urlparse("/".join([str(arg) for arg in args]))
         uri_backend = uri_backend_registry.get(parsed_uri.scheme, None)
         if uri_backend:
             cls = uri_backend[cls.__name__.lower()]
