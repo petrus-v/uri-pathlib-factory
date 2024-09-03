@@ -1,7 +1,12 @@
 # Changelog
 
 <!--next-version-placeholder-->
-## v0.1.5 (2024-07-23)
+## v0.1.6 (2024-07-23)
+### Fix
+
+* drop commit message linter
+
+## v0.1.5 (not released)
 ### Fix
 
 * drop support py3.12 for meantime
