@@ -1,8 +1,13 @@
 # Changelog
 
 <!--next-version-placeholder-->
+## v0.1.5 (2024-07-23)
+### Fix
 
-## v0.1.4 (2024-09-03)
+* drop support py3.12 for meantime
+* lint
+
+## v0.1.4 (not released)
 ### Fix
 
 * While receiving path as first arguments casting to string before joining parts
