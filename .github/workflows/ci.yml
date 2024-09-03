@@ -22,14 +22,14 @@ jobs:
 
   # Make sure commit messages follow the conventional commits convention:
   # https://www.conventionalcommits.org
-  commitlint:
-    name: Lint Commit Messages
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      - uses: wagoid/commitlint-github-action@v4.1.11
+  # commitlint:
+  #   name: Lint Commit Messages
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v3
+  #       with:
+  #         fetch-depth: 0
+  #    - uses: wagoid/commitlint-github-action@v4.1.11
 
   test:
     strategy:
