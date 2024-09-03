@@ -67,7 +67,7 @@ jobs:
     needs:
       - test
       - lint
-      - commitlint
+      # - commitlint
 
     steps:
       - uses: actions/checkout@v3
