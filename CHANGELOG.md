@@ -1,7 +1,12 @@
 # Changelog
 
+## v0.1.7 (not released)
+### Fix
+
+* fix ci
+
 <!--next-version-placeholder-->
-## v0.1.6 (2024-07-23)
+## v0.1.6 (not released)
 ### Fix
 
 * drop commit message linter
